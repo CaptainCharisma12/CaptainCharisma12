@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel='icon' href='resources/favicon.ico' type='image/x-icon'/ >
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>GO Studio Design - UX/UI Design</title>
+</head>
+<body>
+    <div class="page-heading mont-font">
+        <h1 class="heading-title roboto uxui-color">UX - UI DESIGN</h1>
+        <div class="heading-subtitle">Mostra chi sei e la tua attivit&agrave; attraverso un sito che ti rappresenta</div>
+        <div class="heading-text">
+            <span>Progetto il layout in modo da rendere la sua comprensione immediata per l&#39;utente.</span>
+            <span>Attraverso un&#39;interfaccia ben fatta le persone devono capire cosa possono fare senza sforzo.</span>
+            <span>Lavoro sul design grafico per rendere l&#39;esperienza utente il pi&ugrave; piacevole possibile.</span>
+        </div>
+        <div class="image-box">
+            <a href="ribo-it.html">
+                <img class="image-border image-width-general" src="resources/UX-UI/Atelier.png" alt="Atelier Ribo logo">
+            </a>
+            <a href="ribo-it.html">
+                <div class="uxui-text-box mont-font">
+                    <div class="roboto box-title">
+                        ATELIER RIBO +
+                    </div><br>
+                    <div class="box-text">
+                        <span>Studio di architettura innovativo ed interdisciplinare, con 3 principali settori:</span>
+                        <span>architettura, paesaggio e consulenza.</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="image-box">
+            <a href="about-it.html">
+                <img class="image-border image-width-general" src="resources/UX-UI/GO.png" alt="GO Studio Design Logo">
+            </a>
+            <a href="about-it.html">
+                <div class="uxui-text-box mont-font">
+                    <div class="roboto box-title">
+                        GO STUDIO DESIGN
+                    </div><br>
+                    <div class="box-text">
+                        <span>Ho lavorato al design del mio sito web personale, per poter rappresentare</span>
+                        <span>i tre servizi che offro e mostrare i miei progetti.</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div id="myBtn" class="custom-button-uxui" style="display: inline-block;">
+            CONTATTACI
+        </div>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <form class="gform" method="POST" data-email="info@gostudiodesign.com"
+                action="https://script.google.com/a/gostudiodesign.com/macros/s/AKfycbxYK0n5aCsz4zkkWnp69w8iPhSBRtd9sGdqaCqb/exec">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="close">&times;</span>
+                    </div>
+                    
+                    <div class="form-elements">
+                        <div class="modal-body">
+                            <label for="name"><b>Il tuo nome:</b></label><br>
+                            <input type="text" placeholder="Inserire Nome" id="name" name="name" class="mail-input" required><br><br>
+
+                            <label for="email"><b>La tua email:</b></label><br>
+                            <input type="email" placeholder="Inserire Email" id="email" name="email" class="mail-input" required><br><br>
+
+                            <label for="message"><b>Il tuo messaggio:</b></label><br>
+                            <textarea id="message" name="message" rows="4" cols="50" value="" class="message-input" required></textarea><br>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="custom-button-send">INVIA</button>
+                        </div>
+                    </div>
+                    <div class="thankyou_message" style="display:none;">
+                        <div class="modal-body thank-text">
+                            <span>Grazie per averci contattato!</span>
+                            <span>Risponderemo il pi&ugrave; presto possibile!</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </form>
+            <!-- Submit the Form to Google Using "AJAX" -->
+            <script data-cfasync="true" type="text/javascript" src="form-submission-handler.js"></script>
+        </div>
+    </div>
+    <div class="bottom-banner mont-font">
+        Tutti i diritti riservati copyright &#169; GO Studio Design <br> privacy policy - cookie policy
+        <div class="bottom-icons">
+            <a href="https://www.facebook.com/GiuliaObertStudio/" target="_blank"><i class="fab fa-facebook-f social-icon"></i></a>
+            <a href="https://www.instagram.com/giuliaobertstudio/" target="_blank"><i class="fab fa-instagram social-icon"></i></a>
+            <a href="https://www.pinterest.it/giuliaobert/" target="_blank"><i class="fab fa-pinterest social-icon"></i></a>
+            <a href="https://www.linkedin.com/in/giulia-obert-4b38089a/" target="_blank"><i class="fab fa-linkedin-in social-icon"></i></a>
+        </div>
+    </div>
+    <div class="top-banner">
+        <a href="home-it.html">
+            <img src="resources/Logo.png" class="go-logo" alt="GO Studio Logo">
+        </a>
+        <div class="language-select mont-font">
+            <a style="color: #FF7373;" href="uxui.html">EN</a> | <b>IT</b>
+        </div>
+        <input type="checkbox" name="toggle" id="toggle" />
+        <label for="toggle"><i class="fas fa-bars menu-open-icon"></i></label>
+
+        <div class="message mont-font">
+            <a href="home-it.html">
+                <img src="resources/Logo_bianco.png" class="go-logo logo-negative" alt="GO Studio Logo Negative">
+            </a>
+            <label for="toggle"><i class="fas fa-times menu-close-icon"></i></label>
+            <div class="menu-text-alignment">
+                <a href="communication-it.html" class="menu-link">
+                    COMUNICAZIONE
+                </a>
+                <a href="interior-it.html" class="menu-link">
+                    INTERIOR DESIGN
+                </a>
+                <a href="uxui-it.html" class="menu-link">
+                    UX-UI DESIGN
+                </a>
+                <a href="about-it.html" class="menu-link">
+                    GO STUDIO DESIGN
+                </a>
+            </div>
+            <div class="bottom-banner-menu mont-font" style="color: white;">
+                Tutti i diritti riservati copyright &#169; GO Studio Design <br> privacy policy - cookie policy
+                <div class="bottom-icons-menu">
+                    <a href="https://www.facebook.com/GiuliaObertStudio/" target="_blank"><i class="fab fa-facebook-f social-icon-menu"></i></a>
+                    <a href="https://www.instagram.com/giuliaobertstudio/" target="_blank"><i class="fab fa-instagram social-icon-menu"></i></a>
+                    <a href="https://www.pinterest.it/giuliaobert/" target="_blank"><i class="fab fa-pinterest social-icon-menu"></i></a>
+                    <a href="https://www.linkedin.com/in/giulia-obert-4b38089a/" target="_blank"><i class="fab fa-linkedin-in social-icon-menu"></i></a>
+                </div>
+            </div>
+        </div>
+        <button onclick="topFunction()" id="topButton" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+    </div>
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        //Get the button
+        var mybutton = document.getElementById("topButton");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.bottom = "10%";
+            } else {
+                mybutton.style.bottom = "-15%";
+            }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>

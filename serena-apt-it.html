@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel='icon' href='resources/favicon.ico' type='image/x-icon'/ >
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>GO Studio Design</title>
+</head>
+<body>
+    <div class="page-heading mont-font">
+        <div class="heading-title roboto interior-color">APPARTAMENTO SERENA</div>
+        <div class="heading-text-internal">
+            <span>L&#39;appartamento &egrave; stato ripensato per andare incontro al gusto e necessit&agrave; della cliente.</span>
+            <span>In particolare &egrave; stato sostituita completamente la pavimentazione</span>
+            <span>ed &egrave; stata creata da zero una zona guardaroba all&#39;ingresso.</span>
+        </div>
+        <div class="heading-time-place">
+            <span>Anno: 2020</span>
+            <span>Citt&agrave;: Torino</span>
+        </div>
+            <img src="resources/Interior_Design/Casa_Serena/Pianta.jpg" alt="Serena piantina" class="gallery-image">
+            <img src="resources/Interior_Design/Casa_Serena/Cucina_1.jpg" alt="Serena cucina 1" class="gallery-image">
+            <img src="resources/Interior_Design/Casa_Serena/Cucina_2.jpg" alt="Serena cucina 2" class="gallery-image">
+            <img src="resources/Interior_Design/Casa_Serena/Cucina_3.jpg" alt="Serena cucina 3" class="gallery-image">
+            <img src="resources/Interior_Design/Casa_Serena/Camera.jpg" alt="Serena camera da letto" class="gallery-image last-image">
+        </div>
+    </div>
+    <div class="bottom-banner mont-font">
+        Tutti i diritti riservati copyright &#169; GO Studio Design <br> privacy policy - cookie policy
+        <div class="bottom-icons">
+            <a href="https://www.facebook.com/GiuliaObertStudio/" target="_blank"><i class="fab fa-facebook-f social-icon"></i></a>
+            <a href="https://www.instagram.com/giuliaobertstudio/" target="_blank"><i class="fab fa-instagram social-icon"></i></a>
+            <a href="https://www.pinterest.it/giuliaobert/" target="_blank"><i class="fab fa-pinterest social-icon"></i></a>
+            <a href="https://www.linkedin.com/in/giulia-obert-4b38089a/" target="_blank"><i class="fab fa-linkedin-in social-icon"></i></a>
+        </div>
+    </div>
+    <div class="top-banner">
+        <a href="home-it.html">
+            <img src="resources/Logo.png" class="go-logo" alt="GO Studio Logo">
+        </a>
+        <div class="language-select mont-font">
+            <a style="color: #FF7373;" href="serena-apt.html">EN</a> | <b>IT</b>
+        </div>
+        <input type="checkbox" name="toggle" id="toggle" />
+        <label for="toggle"><i class="fas fa-bars menu-open-icon"></i></label>
+
+        <div class="message mont-font">
+            <a href="home-it.html">
+                <img src="resources/Logo_bianco.png" class="go-logo logo-negative" alt="GO Studio Logo Negative">
+            </a>
+            <label for="toggle"><i class="fas fa-times menu-close-icon"></i></label>
+            <div class="menu-text-alignment">
+                <a href="communication-it.html" class="menu-link">
+                    COMUNICAZIONE
+                </a>
+                <a href="interior-it.html" class="menu-link">
+                    INTERIOR DESIGN
+                </a>
+                <a href="uxui-it.html" class="menu-link">
+                    UX-UI DESIGN
+                </a>
+                <a href="about-it.html" class="menu-link">
+                    GO STUDIO DESIGN
+                </a>
+            </div>
+            <div class="bottom-banner-menu mont-font" style="color: white;">
+                Tutti i diritti riservati copyright &#169; GO Studio Design <br> privacy policy - cookie policy
+                <div class="bottom-icons-menu">
+                    <a href="https://www.facebook.com/GiuliaObertStudio/" target="_blank"><i class="fab fa-facebook-f social-icon-menu"></i></a>
+                    <a href="https://www.instagram.com/giuliaobertstudio/" target="_blank"><i class="fab fa-instagram social-icon-menu"></i></a>
+                    <a href="https://www.pinterest.it/giuliaobert/" target="_blank"><i class="fab fa-pinterest social-icon-menu"></i></a>
+                    <a href="https://www.linkedin.com/in/giulia-obert-4b38089a/" target="_blank"><i class="fab fa-linkedin-in social-icon-menu"></i></a>
+                </div>
+            </div>
+        </div>
+        <button onclick="topFunction()" id="topButton" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+    </div>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("topButton");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.bottom = "10%";
+            } else {
+                mybutton.style.bottom = "-15%";
+            }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>
