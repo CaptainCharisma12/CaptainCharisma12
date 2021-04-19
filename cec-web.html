@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel='icon' href='resources/favicon.ico' type='image/x-icon'/ >
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>GO Studio Design</title>
+</head>
+<body>
+    <div class="page-heading mont-font">
+        <div class="heading-title roboto uxui-color">STUDIO C&amp;C</div>
+        <div class="heading-text-internal">
+            <span>Sculpture & Architecture studio.</span>
+            <span>Founded by Paolo Albertelli and Mariagrazia Abbaldo.</span>
+        </div>
+        <div class="heading-time-place">
+            <span>Studio C&amp;C</span>
+            <span>Year: 2021</span>
+            <span>Co-designer: Marco Stefanelli</span>
+        </div>
+        <div class="triple-video-container">
+            <div class="uxui-box">
+                The work started with the rearrangement of the old website’s contents.
+                Once we had the final pages organization we selected all the art pieces and relative photos that best represent them in every detail.
+                In parallel has been defined the new graphics of the studio’s site.
+            </div>
+            <div class="uxui-box">
+                <img class="image-border image-width-general" src="resources/UX-UI/CeC/Website_CC.jpg" alt="C&C design sitemap">
+            </div>
+        </div>
+        <div class="take-look-text">
+            Take a look yourself:<br>
+        </div>
+        <a href="https://www.studiocec.it/" target="_blank">
+            <div class="custom-button-uxui" style="margin-bottom: 5%;">
+                WEBSITE
+            </div>
+        </a>
+    </div>
+    <div class="bottom-banner mont-font">
+        All rights reserved copyright &#169; GO Studio Design <br> privacy policy - cookie policy
+        <div class="bottom-icons">
+            <a href="https://www.facebook.com/GiuliaObertStudio/" target="_blank"><i class="fab fa-facebook-f social-icon"></i></a>
+            <a href="https://www.instagram.com/giuliaobertstudio/" target="_blank"><i class="fab fa-instagram social-icon"></i></a>
+            <a href="https://www.pinterest.it/giuliaobert/" target="_blank"><i class="fab fa-pinterest social-icon"></i></a>
+            <a href="https://www.linkedin.com/in/giulia-obert-4b38089a/" target="_blank"><i class="fab fa-linkedin-in social-icon"></i></a>
+        </div>
+    </div>
+    <div class="top-banner">
+        <a href="home.html">
+            <img src="resources/Logo.png" class="go-logo" alt="GO Studio Logo">
+        </a>
+        <div class="language-select mont-font">
+            <b>EN</b> | <a style="color: #FF7373;" href="cec-web-it.html">IT</a>
+        </div>
+        <input type="checkbox" name="toggle" id="toggle" />
+        <label for="toggle"><i class="fas fa-bars menu-open-icon"></i></label>
+
+        <div class="message mont-font">
+            <a href="home.html">
+                <img src="resources/Logo_bianco.png" class="go-logo logo-negative" alt="GO Studio Logo Negative">
+            </a>
+            <label for="toggle"><i class="fas fa-times menu-close-icon"></i></label>
+            <div class="menu-text-alignment">
+                <a href="communication.html" class="menu-link">
+                    COMMUNICATION
+                </a>
+                <a href="interior.html" class="menu-link">
+                    INTERIOR DESIGN
+                </a>
+                <a href="uxui.html" class="menu-link">
+                    UX-UI DESIGN
+                </a>
+                <a href="about.html" class="menu-link">
+                    GO STUDIO DESIGN
+                </a>
+            </div>
+            <div class="bottom-banner-menu mont-font" style="color: white;">
+                All rights reserved copyright &#169; GO Studio Design <br> privacy policy - cookie policy
+                <div class="bottom-icons-menu">
+                    <a href="https://www.facebook.com/GiuliaObertStudio/" target="_blank"><i class="fab fa-facebook-f social-icon-menu"></i></a>
+                    <a href="https://www.instagram.com/giuliaobertstudio/" target="_blank"><i class="fab fa-instagram social-icon-menu"></i></a>
+                    <a href="https://www.pinterest.it/giuliaobert/" target="_blank"><i class="fab fa-pinterest social-icon-menu"></i></a>
+                    <a href="https://www.linkedin.com/in/giulia-obert-4b38089a/" target="_blank"><i class="fab fa-linkedin-in social-icon-menu"></i></a>
+                </div>
+            </div>
+        </div>
+        <button onclick="topFunction()" id="topButton" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+    </div>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("topButton");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.bottom = "10%";
+            } else {
+                mybutton.style.bottom = "-15%";
+            }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>
